@@ -14,6 +14,7 @@ import startsWith from 'lodash/startsWith';
 import userFactory from 'lib/user';
 import sitesFactory from 'lib/sites-list';
 import { receiveSite } from 'state/sites/actions';
+import { getSite } from 'state/sites/selectors';
 import {
 	setSelectedSiteId,
 	setSection,
@@ -124,10 +125,16 @@ function isPathAllowedForDomainOnlySite( pathname ) {
 function onSelectedSiteAvailable( context ) {
 	const selectedSite = sites.getSelectedSite();
 	siteStatsStickyTabActions.saveFilterAndSlug( false, selectedSite.slug );
-	context.store.dispatch( receiveSite( selectedSite ) );
-	context.store.dispatch( setSelectedSiteId( selectedSite.ID ) );
-
 	const state = context.store.getState();
+
+	// Currently, sites are only made available in Redux state by the receive
+	// here (i.e. only selected sites). If a site is already known in state,
+	// avoid receiving since we risk overriding changes made more recently.
+	if ( ! getSite( state, selectedSite.ID ) ) {
+		context.store.dispatch( receiveSite( selectedSite ) );
+	}
+
+	context.store.dispatch( setSelectedSiteId( selectedSite.ID ) );
 
 	if ( isDomainOnlySite( state, selectedSite.ID ) &&
 		! isPathAllowedForDomainOnlySite( context.pathname ) ) {
