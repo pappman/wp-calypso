@@ -104,6 +104,27 @@ export default class QueryManager {
 	}
 
 	/**
+	 * A sorting function that defines the sort order of items under
+	 * consideration of the specified query.
+	 *
+	 * @param  {Array}  keys  Keys to be sorted
+	 * @param  {Array}  items Items by which to sort
+	 * @param  {Object} query Query object
+	 * @return {Array}        Sorted keys
+	 */
+	sort( keys, items, query ) {
+		return keys.sort( ( keyA, keyB ) => {
+			if ( ! items[ keyA ] || ! items[ keyB ] ) {
+				// One of the items has yet to be removed from the
+				// set at this point in iteration, so don't bother
+				// trying to sort.
+				return 0;
+			}
+			return this.compare( query, items[ keyA ], items[ keyB ] );
+		} );
+	}
+
+	/**
 	 * Returns a single item by key.
 	 *
 	 * @param  {String} itemKey Item key
@@ -344,16 +365,7 @@ export default class QueryManager {
 					memo[ queryKey ].itemKeys = get( memo, [ queryKey, 'itemKeys' ], [] ).concat( receivedItemKey );
 
 					// Re-sort the set
-					memo[ queryKey ].itemKeys.sort( ( keyA, keyB ) => {
-						if ( ! nextItems[ keyA ] || ! nextItems[ keyB ] ) {
-							// One of the items has yet to be removed from the
-							// set at this point in iteration, so don't bother
-							// trying to sort.
-							return 0;
-						}
-
-						return this.compare( query, nextItems[ keyA ], nextItems[ keyB ] );
-					} );
+					this.sort( memo[ queryKey ].itemKeys, nextItems, query );
 				}
 			} );
 
