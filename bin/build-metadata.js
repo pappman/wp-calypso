@@ -252,6 +252,43 @@ function injectHardCodedValues( libPhoneNumberData ) {
 			isoCode: 'kv',
 			dialCode: '383',
 			nationalPrefix: '0'
+		},
+		um: {
+			isoCode: 'um',
+			dialCode: '1',
+			nationalPrefix: '',
+			priority: 99,
+			patternRegion: 'us'
+		},
+		bv: {
+			isoCode: 'bv',
+			dialCode: '47',
+			nationalPrefix: '',
+			priority: 99
+		},
+		tf: {
+			isoCode: 'tf',
+			dialCode: '262',
+			nationalPrefix: '0',
+			priority: 99
+		},
+		hm: {
+			isoCode: 'hm',
+			dialCode: '61',
+			nationalPrefix: '0',
+			priority: 99,
+		},
+		pn: {
+			isoCode: 'pn',
+			dialCode: '64',
+			nationalPrefix: '0',
+			priority: 99
+		},
+		gs: {
+			isoCode: 'gs',
+			nationalPrefix: '',
+			dialCode: '500',
+			priority: 99
 		}
 	}, libPhoneNumberData );
 }

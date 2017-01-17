@@ -7,6 +7,43 @@ module.exports = {
 			dialCode: "383",
 			nationalPrefix: "0"
 		},
+		um: {
+			isoCode: "um",
+			dialCode: "1",
+			nationalPrefix: "",
+			priority: 99,
+			patternRegion: "us"
+		},
+		bv: {
+			isoCode: "bv",
+			dialCode: "47",
+			nationalPrefix: "",
+			priority: 99
+		},
+		tf: {
+			isoCode: "tf",
+			dialCode: "262",
+			nationalPrefix: "0",
+			priority: 99
+		},
+		hm: {
+			isoCode: "hm",
+			dialCode: "61",
+			nationalPrefix: "0",
+			priority: 99
+		},
+		pn: {
+			isoCode: "pn",
+			dialCode: "64",
+			nationalPrefix: "0",
+			priority: 99
+		},
+		gs: {
+			isoCode: "gs",
+			nationalPrefix: "",
+			dialCode: "500",
+			priority: 99
+		},
 		ac: {
 			isoCode: "ac",
 			dialCode: "247"
@@ -5947,6 +5984,7 @@ module.exports = {
 	},
 	dialCodeMap: {
 		1: [
+			"um",
 			"us",
 			"ca"
 		],
@@ -6004,6 +6042,7 @@ module.exports = {
 			"se"
 		],
 		47: [
+			"bv",
 			"no",
 			"sj"
 		],
@@ -6041,6 +6080,7 @@ module.exports = {
 			"my"
 		],
 		61: [
+			"hm",
 			"au",
 			"cx",
 			"cc"
@@ -6052,6 +6092,7 @@ module.exports = {
 			"ph"
 		],
 		64: [
+			"pn",
 			"nz"
 		],
 		65: [
@@ -6231,6 +6272,9 @@ module.exports = {
 		261: [
 			"mg"
 		],
+		262: [
+			"tf"
+		],
 		263: [
 			"zw"
 		],
@@ -6360,6 +6404,7 @@ module.exports = {
 			"li"
 		],
 		500: [
+			"gs",
 			"fk"
 		],
 		501: [
