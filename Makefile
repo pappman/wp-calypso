@@ -107,7 +107,7 @@ node-version: node_modules/semver
 
 # ensures that the `node_modules` directory is installed and up-to-date with
 # the dependencies listed in the "package.json" file.
-node_modules/*: package.json
+node_modules/.bin/webpack: package.json
 	@$(NPM) prune
 	@$(NPM) install
 
