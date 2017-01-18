@@ -9,7 +9,7 @@ import { identity } from 'lodash';
  * Internal dependencies
  */
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 export const PurchaseButton = ( {
 	href,

@@ -17,7 +17,7 @@ import EditorMediaModalDetailPreviewVideo from './detail-preview-video';
 import EditorMediaModalDetailPreviewAudio from './detail-preview-audio';
 import EditorMediaModalDetailPreviewDocument from './detail-preview-document';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { userCan, isJetpack } from 'lib/site/utils';
 import MediaUtils, { isItemBeingUploaded } from 'lib/media/utils';
 import config from 'config';

@@ -8,7 +8,7 @@ import noop from 'lodash/noop';
  * Internal dependencies
  */
 import SidebarHeading from 'layout/sidebar/heading';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Count from 'components/count';
 
 const ExpandableSidebarHeading = ( { title, count, onClick } ) => (

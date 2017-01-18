@@ -6,7 +6,7 @@ import React from 'react';
 /**
  * Internal dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import InfoPopover from 'components/info-popover';
 import viewport from 'lib/viewport';
 

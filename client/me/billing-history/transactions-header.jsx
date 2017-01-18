@@ -15,7 +15,7 @@ var React = require( 'react' ),
 var tableRows = require( './table-rows' ),
 	eventRecorder = require( 'me/event-recorder' );
 
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 module.exports = React.createClass( {
 	displayName: 'TransactionsHeader',

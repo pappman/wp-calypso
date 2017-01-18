@@ -9,7 +9,7 @@ import i18n from 'i18n-calypso';
  * Internal dependencies
  */
 import ObserveWindowSizeMixin from 'lib/mixins/observe-window-resize';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Button from 'components/button';
 import viewport from 'lib/viewport';
 

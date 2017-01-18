@@ -14,7 +14,7 @@ import { translate } from 'i18n-calypso';
 import { preload } from 'sections-preload';
 import SitesPopover from 'components/sites-popover';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { markSeen as markPostSeen } from 'lib/feed-post-store/actions';
 
 import getSitesList from 'lib/sites-list';

@@ -10,7 +10,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 const PlanFeaturesActions = ( {
 	canPurchase,

@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import StatUpdateIndicator from 'components/stat-update-indicator';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import QueryPostStats from 'components/data/query-post-stats';
 import QuerySites from 'components/data/query-sites';
 import { getPostStat } from 'state/stats/posts/selectors';

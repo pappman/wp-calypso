@@ -18,7 +18,7 @@ import { PLAN_FREE, PLAN_PERSONAL } from 'lib/plans/constants';
 import { getPlan } from 'lib/plans';
 import PlanPrice from 'my-sites/plan-price';
 import PlanIcon from 'components/plans/plan-icon';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { getCurrentUserCurrencyCode } from 'state/current-user/selectors';
 import {
 	getSitePlanRawPrice,

@@ -9,7 +9,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal Dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Button from 'components/button';
 
 export class ExpandableSidebarAddForm extends Component {

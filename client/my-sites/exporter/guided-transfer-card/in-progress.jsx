@@ -9,7 +9,7 @@ import { localize } from 'i18n-calypso';
  */
 import Button from 'components/button';
 import Card from 'components/card';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import supportUrls from 'lib/url/support';
 
 const GuidedTransferInProgress = ( { translate } ) =>

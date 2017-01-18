@@ -12,7 +12,7 @@ import { localize } from 'i18n-calypso';
 import viewport from 'lib/viewport';
 import { openChat } from 'state/ui/happychat/actions';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 class HappychatButton extends Component {
 	onOpenChat = () => {

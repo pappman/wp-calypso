@@ -11,7 +11,7 @@ import { flowRight } from 'lodash';
  * Internal dependencies
  */
 import titlecase from 'to-title-case';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Button from 'components/button';
 import { getSiteStatsCSVData, isRequestingSiteStatsForQuery } from 'state/stats/lists/selectors';
 import { recordGoogleEvent } from 'state/analytics/actions';

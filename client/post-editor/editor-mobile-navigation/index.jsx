@@ -8,7 +8,7 @@ import classnames from 'classnames';
 /**
  * Internal dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { setLayoutFocus } from 'state/ui/layout-focus/actions';
 import { getCurrentLayoutFocus } from 'state/ui/layout-focus/selectors';
 import EditorPublishButton from 'post-editor/editor-publish-button';

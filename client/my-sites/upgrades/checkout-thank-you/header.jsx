@@ -16,7 +16,7 @@ import {
 	isPlan,
 	isSiteRedirect
 } from 'lib/products-values';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { localize } from 'i18n-calypso';
 
 class CheckoutThankYouHeader extends React.Component {

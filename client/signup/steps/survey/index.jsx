@@ -14,7 +14,7 @@ import SignupActions from 'lib/signup/actions';
 import analytics from 'lib/analytics';
 import verticals from './verticals';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import signupUtils from 'signup/utils';
 import FormTextInputWithAction from 'components/forms/form-text-input-with-action';
 

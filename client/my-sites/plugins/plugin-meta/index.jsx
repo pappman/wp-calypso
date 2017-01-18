@@ -15,7 +15,7 @@ import analytics from 'lib/analytics';
 import Button from 'components/button';
 import Card from 'components/card';
 import Count from 'components/count';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import NoticeAction from 'components/notice/notice-action';
 import ExternalLink from 'components/external-link';
 import Notice from 'components/notice';

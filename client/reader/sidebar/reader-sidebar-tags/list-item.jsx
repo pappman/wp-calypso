@@ -9,7 +9,7 @@ import { identity } from 'lodash';
 /**
  * Internal Dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import ReaderSidebarHelper from '../helper';
 
 export class ReaderSidebarTagsListItem extends Component {

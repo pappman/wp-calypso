@@ -11,7 +11,7 @@ import { connect } from 'react-redux';
 import Card from 'components/card';
 import Button from 'components/button';
 import Dialog from 'components/dialog';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Notice from 'components/notice';
 import {
 	getStatus,

@@ -12,7 +12,7 @@ import { localize } from 'i18n-calypso';
  */
 import AccountDialogAccount from './account-dialog-account';
 import Dialog from 'components/dialog';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { warningNotice } from 'state/notices/actions';
 
 class AccountDialog extends Component {

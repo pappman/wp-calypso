@@ -13,7 +13,7 @@ import AsyncLoad from 'components/async-load';
 import Button from 'components/button';
 import FormToggle from 'components/forms/form-toggle/compact';
 import Revisions from 'post-editor/editor-revisions';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import postUtils from 'lib/posts/utils';
 import Popover from 'components/popover';
 import InfoPopover from 'components/info-popover';

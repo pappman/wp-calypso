@@ -9,7 +9,7 @@ import { assign, omit } from 'lodash';
 /**
  * Internal dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 export default React.createClass( {
 

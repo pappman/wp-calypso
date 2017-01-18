@@ -11,7 +11,7 @@ import get from 'lodash/get';
 import SectionHeader from 'components/section-header';
 import Button from 'components/button';
 import ButtonGroup from 'components/button-group';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Tooltip from 'components/tooltip';
 import config from 'config';
 

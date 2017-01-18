@@ -8,7 +8,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import { translate } from 'i18n-calypso';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import FollowButton from 'reader/follow-button';
 import { getLinkProps } from './helper';
 import * as discoverStats from './stats';

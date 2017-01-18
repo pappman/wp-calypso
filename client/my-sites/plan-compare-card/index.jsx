@@ -11,7 +11,7 @@ import noop from 'lodash/noop';
 
 import Button from 'components/button';
 import Card from 'components/card';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Ribbon from 'components/ribbon';
 
 export default React.createClass( {

@@ -10,7 +10,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import CompactCard from 'components/card/compact';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import PopoverMenu from 'components/popover/menu';
 import PopoverMenuItem from 'components/popover/menu-item';
 import { isEnabled } from 'config';

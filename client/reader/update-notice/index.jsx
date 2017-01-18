@@ -11,7 +11,7 @@ import classnames from 'classnames';
  * Internal dependencies
  */
 import DocumentHead from 'components/data/document-head';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { getDocumentHeadCappedUnreadCount } from 'state/document-head/selectors';
 
 const UpdateNotice = React.createClass( {

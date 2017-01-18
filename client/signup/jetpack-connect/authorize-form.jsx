@@ -46,7 +46,7 @@ import userUtilities from 'lib/user/utils';
 import Card from 'components/card';
 import CompactCard from 'components/card/compact';
 import Gravatar from 'components/gravatar';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import LocaleSuggestions from 'signup/locale-suggestions';
 import { recordTracksEvent } from 'state/analytics/actions';
 import Spinner from 'components/spinner';

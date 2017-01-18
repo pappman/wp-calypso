@@ -18,7 +18,7 @@ import CartEmpty from './cart-empty';
 import CartPlanAd from './cart-plan-ad';
 import CartTrialAd from './cart-trial-ad';
 import { isCredits } from 'lib/products-values';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 const PopoverCart = React.createClass( {
 	propTypes: {

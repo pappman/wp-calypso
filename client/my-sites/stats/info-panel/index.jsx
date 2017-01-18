@@ -9,7 +9,7 @@ import PureRenderMixin from 'react-pure-render/mixin';
  */
 import analytics from 'lib/analytics';
 import titlecase from 'to-title-case';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 export default React.createClass( {
 	displayName: 'StatsInfoPanel',

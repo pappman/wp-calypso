@@ -25,7 +25,7 @@ import JetpackInstallStep from './install-step';
 import versionCompare from 'lib/version-compare';
 import LocaleSuggestions from 'signup/locale-suggestions';
 import { recordTracksEvent } from 'state/analytics/actions';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import MainWrapper from './main-wrapper';
 import StepHeader from '../step-header';
 import HelpButton from './help-button';

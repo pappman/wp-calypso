@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
  */
 import { RelatedPostCard } from 'blocks/reader-related-card-v2';
 import PostStore from 'lib/feed-post-store';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import * as stats from 'reader/stats';
 import Button from 'components/button';
 import { dismissPost } from 'lib/feed-stream-store/actions';

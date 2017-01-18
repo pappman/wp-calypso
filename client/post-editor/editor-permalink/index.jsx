@@ -9,7 +9,7 @@ import { connect } from 'react-redux';
 /**
  * Internal dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Slug from 'post-editor/editor-slug';
 import Popover from 'components/popover';
 import Tooltip from 'components/tooltip';

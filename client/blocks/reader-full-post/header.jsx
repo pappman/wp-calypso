@@ -13,7 +13,7 @@ import ExternalLink from 'components/external-link';
 import { recordPermalinkClick } from 'reader/stats';
 import PostTime from 'reader/post-time';
 import ReaderFullPostHeaderTags from './header-tags';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { isDiscoverPost } from 'reader/discover/helper';
 import ReaderFullPostHeaderPlaceholder from './placeholders/header';
 

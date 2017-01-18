@@ -14,7 +14,7 @@ import Button from 'components/button';
 import Card from 'components/card';
 import { getEligibility, isEligibleForAutomatedTransfer } from 'state/automated-transfer/selectors';
 import { getSelectedSiteId } from 'state/ui/selectors';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import SectionHeader from 'components/section-header';
 import QueryEligibility from 'components/data/query-atat-eligibility';
 

@@ -8,7 +8,7 @@ import { get, has } from 'lodash';
  * Internal Dependencies
  */
 import ReaderAvatar from 'blocks/reader-avatar';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import PostTime from 'reader/post-time';
 import { siteNameFromSiteAndPost } from 'reader/utils';
 import {

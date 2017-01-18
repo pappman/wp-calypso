@@ -8,7 +8,7 @@ import React from 'react';
  */
 import analytics from 'lib/analytics';
 import accept from 'lib/accept';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import PluginsLog from 'lib/plugins/log-store';
 import PluginAction from 'my-sites/plugins/plugin-action/plugin-action';
 import PluginsActions from 'lib/plugins/actions';

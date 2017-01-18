@@ -10,7 +10,7 @@ import { connect } from 'react-redux';
  * Internal dependencies
  */
 import Popover from 'components/popover';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import PlanPrice from 'components/plans/plan-price';
 import { getSitePlan } from 'state/sites/plans/selectors';
 import { getSelectedSiteId } from 'state/ui/selectors';

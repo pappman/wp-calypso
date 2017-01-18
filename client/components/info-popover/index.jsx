@@ -7,7 +7,7 @@ import React from 'react';
 * Internal dependencies
 */
 import Popover from 'components/popover';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import classNames from 'classnames';
 import analytics from 'lib/analytics';
 

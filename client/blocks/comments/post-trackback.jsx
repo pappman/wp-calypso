@@ -6,7 +6,7 @@ import React from 'react';
 /***
  * Internal dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import PostTime from 'reader/post-time';
 
 function unescape( str ) {

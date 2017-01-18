@@ -8,7 +8,7 @@ import React from 'react';
  */
 import invitationUtils from './invitation-utils';
 import { ga as googleAnalytics } from 'lib/analytics';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 export default React.createClass( {
 	displayName: 'CommunityTranslatorInvitation',

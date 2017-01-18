@@ -10,7 +10,7 @@ import { invoke } from 'lodash';
  * Internal dependencies
  */
 
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import LoggedOutForm from 'components/logged-out-form';
 import LoggedOutFormFooter from 'components/logged-out-form/footer';
 import LoggedOutFormLinks from 'components/logged-out-form/links';

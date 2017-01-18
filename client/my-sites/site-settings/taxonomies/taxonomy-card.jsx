@@ -20,7 +20,7 @@ import { recordGoogleEvent, bumpStat } from 'state/analytics/actions';
 import CompactCard from 'components/card/compact';
 import QueryTerms from 'components/data/query-terms';
 import QuerySiteSettings from 'components/data/query-site-settings';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 const TaxonomyCard = ( {
 		count,

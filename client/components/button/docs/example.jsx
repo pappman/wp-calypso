@@ -11,7 +11,7 @@ import Button from 'components/button';
 import Card from 'components/card';
 import config from 'config';
 import DocsExample from 'devdocs/docs-example';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 var Buttons = React.createClass( {
 	displayName: 'Buttons',

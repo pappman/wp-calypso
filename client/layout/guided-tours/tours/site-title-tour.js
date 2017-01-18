@@ -25,7 +25,7 @@ import {
 	canUserEditSettingsOfSelectedSite,
 	isAbTestInVariant,
 } from 'state/ui/guided-tours/contexts';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { isDesktop } from 'lib/viewport';
 
 const TWO_DAYS_IN_MILLISECONDS = 2 * 1000 * 3600 * 24;

@@ -9,7 +9,7 @@ import classNames from 'classnames';
  */
 
 import { isOutsideCalypso } from 'lib/url';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 export default React.createClass( {
 	displayName: 'CurrentThemeButton',

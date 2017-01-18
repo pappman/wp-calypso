@@ -14,7 +14,7 @@ import QuerySites from 'components/data/query-sites';
 import { getSite } from 'state/sites/selectors';
 import { getSiteIconUrl, getSiteIconId, isTransientMedia } from 'state/selectors';
 import resizeImageUrl from 'lib/resize-image-url';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 function SiteIcon( { siteId, site, iconUrl, size, imgSize, isTransientIcon } ) {
 	const iconSrc = resizeImageUrl( iconUrl, imgSize );

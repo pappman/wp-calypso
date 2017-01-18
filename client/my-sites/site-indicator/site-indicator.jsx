@@ -9,7 +9,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import Animate from 'components/animate';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import ProgressIndicator from 'components/progress-indicator';
 import DisconnectJetpackButton from 'my-sites/plugins/disconnect-jetpack/disconnect-jetpack-button';
 import analytics from 'lib/analytics';

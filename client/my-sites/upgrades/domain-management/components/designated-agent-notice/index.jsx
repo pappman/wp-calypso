@@ -7,7 +7,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal Dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import support from 'lib/url/support';
 
 const DesignatedAgentNotice = ( props ) => (

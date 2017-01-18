@@ -10,7 +10,7 @@ import { noop, flow } from 'lodash';
  * Internal dependencies
  */
 import Card from 'components/card';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import QueryPreferences from 'components/data/query-preferences';
 import { savePreference, setPreference } from 'state/preferences/actions';
 import { getPreference } from 'state/preferences/selectors';

@@ -11,7 +11,7 @@ import { Provider } from 'react-redux';
 /**
  * Internal Dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import ContactFormDialog from './dialog';
 import {
 	formClear,

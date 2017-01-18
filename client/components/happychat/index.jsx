@@ -7,7 +7,7 @@ import classnames from 'classnames';
 /**
  * Internal dependencies
  */
-import GridIcon from 'components/gridicon';
+import GridIcon from 'gridicons';
 import {
 	first,
 	any,

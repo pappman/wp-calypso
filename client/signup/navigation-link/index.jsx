@@ -10,7 +10,7 @@ import i18n from 'i18n-calypso';
  */
 import analytics from 'lib/analytics';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { submitSignupStep } from 'lib/signup/actions';
 import signupUtils from 'signup/utils';
 import { get } from 'lodash';

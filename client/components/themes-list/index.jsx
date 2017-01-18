@@ -16,7 +16,7 @@ import InfiniteScroll from 'lib/mixins/infinite-scroll';
 import { DEFAULT_THEME_QUERY } from 'state/themes/constants';
 import Card from 'components/card';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { recordTracksEvent } from 'state/analytics/actions';
 
 /**

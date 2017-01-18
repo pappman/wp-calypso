@@ -13,7 +13,7 @@ import i18n from 'i18n-calypso';
  */
 import analytics from 'lib/analytics';
 import Spinner from 'components/spinner';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { isMobile } from 'lib/viewport';
 
 /**

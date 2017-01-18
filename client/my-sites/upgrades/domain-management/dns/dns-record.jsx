@@ -9,7 +9,7 @@ import endsWith from 'lodash/endsWith';
  * Internal dependencies
  */
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { isBeingProcessed } from 'lib/domains/dns';
 
 const DnsRecord = React.createClass( {

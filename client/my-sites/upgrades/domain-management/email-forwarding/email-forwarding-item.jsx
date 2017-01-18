@@ -10,7 +10,7 @@ import { bindActionCreators } from 'redux';
  */
 import analyticsMixin from 'lib/mixins/analytics';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import notices from 'notices';
 import { successNotice } from 'state/notices/actions';
 import support from 'lib/url/support';

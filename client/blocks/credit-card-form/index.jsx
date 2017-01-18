@@ -21,7 +21,7 @@ import notices from 'notices';
 import { validateCardDetails } from 'lib/credit-card-details';
 import ValidationErrorList from 'notices/validation-error-list';
 import wpcomFactory from 'lib/wp';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import support from 'lib/url/support';
 
 const countriesList = CountriesList.forPayments();

@@ -17,7 +17,7 @@ import { getEditedPost } from 'state/posts/selectors';
 import { getEditorPostId, isEditorDraftsVisible } from 'state/ui/editor/selectors';
 import { toggleEditorDraftsVisible } from 'state/ui/editor/actions';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import AsyncLoad from 'components/async-load';
 
 function EditorSidebarHeader( { translate, type, showDrafts, toggleDrafts, allPostsUrl } ) {

@@ -14,7 +14,7 @@ import isEqual from 'lodash/isEqual';
 import SectionHeader from 'components/section-header';
 import ButtonGroup from 'components/button-group';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import SelectDropdown from 'components/select-dropdown';
 import DropdownItem from 'components/select-dropdown/item';
 import DropdownSeparator from 'components/select-dropdown/separator';

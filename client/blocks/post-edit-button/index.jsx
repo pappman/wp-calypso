@@ -6,7 +6,7 @@ import React from 'react';
 /**
  * Internal dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { localize } from 'i18n-calypso';
 import { getEditURL } from 'lib/posts/utils';
 

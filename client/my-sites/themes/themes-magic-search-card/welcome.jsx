@@ -9,7 +9,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import { localize } from 'i18n-calypso';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { taxonomyToGridicon } from './taxonomy-styling.js';
 
 class MagicSearchWelcome extends React.Component {

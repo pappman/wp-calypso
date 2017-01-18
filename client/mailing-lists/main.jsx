@@ -8,7 +8,7 @@ import React from 'react';
  * Internal dependencies
  */
 import Card from 'components/card';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import notices from 'notices';
 import utils from './utils';
 import { preventWidows } from 'lib/formatting';

@@ -17,7 +17,7 @@ import PostMetadata from 'lib/post-metadata';
 import PopupMonitor from 'lib/popup-monitor';
 import Button from 'components/button';
 import siteUtils from 'lib/site/utils';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { recordStat, recordEvent } from 'lib/posts/stats';
 import { getSelectedSiteId } from 'state/ui/selectors';
 import { getEditorPostId } from 'state/ui/editor/selectors';

@@ -10,7 +10,7 @@ import { connect } from 'react-redux';
  */
 import { getGuidedTransferIssue } from 'state/sites/guided-transfer/selectors';
 import Card from 'components/card';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Notice from 'components/notice';
 import { CALYPSO_CONTACT } from 'lib/url/support';
 

@@ -8,7 +8,7 @@ import React from 'react';
  */
 import analyticsMixin from 'lib/mixins/analytics';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 const CustomNameserversRow = React.createClass( {
 	mixins: [ analyticsMixin( 'domainManagement', 'nameServers' ) ],

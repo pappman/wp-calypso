@@ -12,7 +12,7 @@ import { bindActionCreators } from 'redux';
  */
 import Card from 'components/card';
 import QueryPlans from 'components/data/query-plans';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import PlanCompareCard from 'my-sites/plan-compare-card';
 import PlanCompareCardItem from 'my-sites/plan-compare-card/item';
 import TrackComponentView from 'lib/analytics/track-component-view';

@@ -13,7 +13,7 @@ import Accordion from 'components/accordion';
 import Button from 'components/button';
 import AccordionSection from 'components/accordion/section';
 import CountedTextarea from 'components/forms/counted-textarea';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import PostActions from 'lib/posts/actions';
 import EditorDrawerLabel from 'post-editor/editor-drawer/label';
 import WebPreview from 'components/web-preview';

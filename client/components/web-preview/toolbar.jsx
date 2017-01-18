@@ -13,7 +13,7 @@ import {
  * Internal dependencies
  */
 import { isEnabled } from 'config';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { isBusiness, isEnterprise } from 'lib/products-values';
 import { localize } from 'i18n-calypso';
 import { getSelectedSite } from 'state/ui/selectors';

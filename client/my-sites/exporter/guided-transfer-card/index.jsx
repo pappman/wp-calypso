@@ -10,7 +10,7 @@ import { connect } from 'react-redux';
  */
 import CompactCard from 'components/card/compact';
 import QuerySiteGuidedTransfer from 'components/data/query-site-guided-transfer';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Button from 'components/forms/form-button';
 import { isGuidedTransferAvailableForAllSites } from 'state/sites/guided-transfer/selectors';
 import { getSiteSlug } from 'state/sites/selectors';

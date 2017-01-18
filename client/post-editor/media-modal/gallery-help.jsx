@@ -11,7 +11,7 @@ import { bindActionCreators } from 'redux';
  */
 import { isMobile } from 'lib/viewport';
 import Popover from 'components/popover';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import FormCheckbox from 'components/forms/form-checkbox';
 import Button from 'components/button';
 

@@ -8,7 +8,7 @@ import Button from 'components/button';
  * Internal dependencies
  */
 import { localize } from 'i18n-calypso';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Card from 'components/card';
 import analytics from 'lib/analytics';
 

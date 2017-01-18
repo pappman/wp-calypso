@@ -12,7 +12,7 @@ import { localize } from 'i18n-calypso';
  */
 import Card from 'components/card';
 import Count from 'components/count';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Gravatar from 'components/gravatar';
 import StatsModuleContent from '../stats-module/content-text';
 import QueryPostLikes from 'components/data/query-post-likes';

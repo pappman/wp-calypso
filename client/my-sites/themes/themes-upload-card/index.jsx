@@ -8,7 +8,7 @@ import React, { PropTypes } from 'react';
  */
 import SectionHeader from 'components/section-header';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { localize } from 'i18n-calypso';
 import { trackClick } from '../helpers';
 

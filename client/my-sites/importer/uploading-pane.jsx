@@ -16,7 +16,7 @@ import { appStates } from 'state/imports/constants';
 import Button from 'components/forms/form-button';
 import DropZone from 'components/drop-zone';
 import ProgressBar from 'components/progress-bar';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { connectDispatcher } from './dispatcher-converter';
 
 export const UploadingPane = React.createClass( {

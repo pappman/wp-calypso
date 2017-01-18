@@ -10,7 +10,7 @@ import { connect } from 'react-redux';
  */
 import Accordion from 'components/accordion';
 import AccordionSection from 'components/accordion/section';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import CategoriesTagsAccordion from 'post-editor/editor-categories-tags/accordion';
 import AsyncLoad from 'components/async-load';
 import FormTextarea from 'components/forms/form-textarea';

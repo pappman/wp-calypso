@@ -7,7 +7,7 @@ import { connect } from 'react-redux';
 /**
  * Internal Dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { getDocumentHeadTitle } from 'state/document-head/selectors';
 import { setLayoutFocus } from 'state/ui/layout-focus/actions';
 

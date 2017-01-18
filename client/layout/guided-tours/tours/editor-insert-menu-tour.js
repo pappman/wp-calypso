@@ -20,7 +20,7 @@ import {
 	hasUserRegisteredBefore,
 } from 'state/ui/guided-tours/contexts';
 import { isDesktop } from 'lib/viewport';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 class RepositioningStep extends Step {
 

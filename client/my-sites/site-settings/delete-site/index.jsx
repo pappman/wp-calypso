@@ -22,7 +22,7 @@ import DeleteSiteWarningDialog from 'my-sites/site-settings/delete-site-warning-
 import Dialog from 'components/dialog';
 import { getSitePurchases, hasLoadedSitePurchasesFromServer } from 'state/purchases/selectors';
 import { getSelectedSiteId } from 'state/ui/selectors';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Notice from 'components/notice';
 import notices from 'notices';
 import purchasesPaths from 'me/purchases/paths';

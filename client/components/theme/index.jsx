@@ -11,7 +11,7 @@ import { isEmpty, isEqual } from 'lodash';
  */
 import Card from 'components/card';
 import ThemeMoreButton from './more-button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import TrackInteractions from 'components/track-interactions';
 import PulsingDot from 'components/pulsing-dot';
 

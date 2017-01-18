@@ -10,7 +10,7 @@ import classnames from 'classnames';
 import { cartItems } from 'lib/cart-values';
 import PrivacyProtectionDialog from './privacy-protection-dialog';
 import Card from 'components/card';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 module.exports = React.createClass( {
 	displayName: 'PrivacyProtection',

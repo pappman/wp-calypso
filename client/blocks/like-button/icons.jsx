@@ -6,7 +6,7 @@ import React from 'react';
 /**
  * Internal dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 const LikeIcons = ( { size } ) => (
 	<span className="like-button__like-icons">

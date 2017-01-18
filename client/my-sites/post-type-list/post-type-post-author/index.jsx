@@ -11,7 +11,7 @@ import { localize } from 'i18n-calypso';
  */
 import { getPost } from 'state/posts/selectors';
 import { isSingleUserSite } from 'state/sites/selectors';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 function PostTypePostAuthor( { translate, singleUserSite, name } ) {
 	if ( ! name || singleUserSite ) {

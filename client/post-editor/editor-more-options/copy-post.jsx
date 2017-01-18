@@ -16,7 +16,7 @@ import Button from 'components/button';
 import Dialog from 'components/dialog';
 import EditorDrawerLabel from 'post-editor/editor-drawer/label';
 import FormSectionHeading from 'components/forms/form-section-heading';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import PostSelector from 'my-sites/post-selector';
 
 class EditorMoreOptionsCopyPost extends Component {

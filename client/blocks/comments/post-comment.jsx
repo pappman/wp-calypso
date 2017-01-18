@@ -12,7 +12,7 @@ import { translate } from 'i18n-calypso';
 import {
 	getCurrentUser
 } from 'state/current-user/selectors';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import PostTime from 'reader/post-time';
 import Gravatar from 'components/gravatar';
 import {

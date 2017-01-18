@@ -9,7 +9,7 @@ import { shallow } from 'enzyme';
  * Internal dependencies
  */
 import Button from '../';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 describe( 'Button', () => {
 	describe( 'renders', () => {

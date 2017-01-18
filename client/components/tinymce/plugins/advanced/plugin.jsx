@@ -10,7 +10,7 @@ import { translate } from 'i18n-calypso';
  * Internal dependencies
  */
 import { isWithinBreakpoint } from 'lib/viewport';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { savePreference, fetchPreferences } from 'state/preferences/actions';
 import { getPreference, isFetchingPreferences } from 'state/preferences/selectors';
 

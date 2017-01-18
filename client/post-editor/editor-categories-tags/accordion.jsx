@@ -13,7 +13,7 @@ import { get, toArray } from 'lodash';
 import Accordion from 'components/accordion';
 import AccordionSection from 'components/accordion/section';
 import EditorDrawerLabel from 'post-editor/editor-drawer/label';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import TermSelector from 'post-editor/editor-term-selector';
 import TermTokenField from 'post-editor/term-token-field';
 import unescapeString from 'lodash/unescape';

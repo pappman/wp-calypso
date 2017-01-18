@@ -8,7 +8,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import FormTextInput from 'components/forms/form-text-input';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { localize } from 'i18n-calypso';
 
 const JetpackConnectExampleConnect = ( { isLegacy, url, translate, onClick } ) => {

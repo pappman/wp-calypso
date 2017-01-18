@@ -9,7 +9,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import Card from 'components/card';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import PostRelativeTimeStatus from 'my-sites/post-relative-time-status';
 import PostControls from './post-controls';
 import PostHeader from './post-header';

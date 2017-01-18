@@ -8,7 +8,7 @@ import classnames from 'classnames';
  * Internal dependencies
  */
 import { isExternal } from 'lib/url';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { preload } from 'sections-preload';
 
 export default React.createClass( {

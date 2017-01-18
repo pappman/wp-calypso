@@ -12,7 +12,7 @@ var translator = require( 'lib/translator-jumpstart' ),
 	Dialog = require( 'components/dialog' ),
 	analytics = require( 'lib/analytics' );
 
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 module.exports = React.createClass( {
 	displayName: 'TranslatorLauncher',

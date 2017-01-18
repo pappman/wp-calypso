@@ -9,7 +9,7 @@ import classnames from 'classnames';
 
 // Internal dependencies
 import ReaderMain from 'components/reader-main';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import FeedSubscriptionStore from 'lib/reader-feed-subscriptions';
 import SiteStore from 'lib/reader-site-store';
 import FeedStore from 'lib/feed-store';

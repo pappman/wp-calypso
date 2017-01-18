@@ -10,7 +10,7 @@ import { connect } from 'react-redux';
  * Internal Dependencies
  **/
 import { localize } from 'i18n-calypso';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import InfoPopover from 'components/info-popover';
 import { isMobile } from 'lib/viewport';
 import Ribbon from 'components/ribbon';

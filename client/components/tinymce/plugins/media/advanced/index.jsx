@@ -12,7 +12,7 @@ import i18n from 'i18n-calypso';
  */
 import * as MediaSerialization from 'lib/media-serialization';
 import config from 'config';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import EditorMediaAdvanced from 'post-editor/editor-media-advanced';
 
 export default function( editor ) {

@@ -14,7 +14,7 @@ import analytics from 'lib/analytics';
 import TrackComponentView from 'lib/analytics/track-component-view';
 import PopoverMenu from 'components/popover/menu';
 import PopoverMenuItem from 'components/popover/menu-item';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { canUserDeleteItem } from 'lib/media/utils';
 import { getCurrentUser } from 'state/current-user/selectors';
 import { getSiteSlug } from 'state/sites/selectors';

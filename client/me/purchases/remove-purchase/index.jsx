@@ -15,7 +15,7 @@ import Dialog from 'components/dialog';
 import CancelPurchaseForm from 'components/marketing-survey/cancel-purchase-form';
 import { getIncludedDomain, getName, hasIncludedDomain, isRemovable } from 'lib/purchases';
 import { getPurchase, isDataLoading } from '../utils';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { isDomainRegistration, isPlan, isGoogleApps } from 'lib/products-values';
 import notices from 'notices';
 import purchasePaths from '../paths';

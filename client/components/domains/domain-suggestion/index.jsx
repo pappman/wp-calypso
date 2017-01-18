@@ -8,7 +8,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import DomainProductPrice from 'components/domains/domain-product-price';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 const DomainSuggestion = React.createClass( {
 

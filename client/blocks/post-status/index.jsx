@@ -9,7 +9,7 @@ import { localize } from 'i18n-calypso';
 /**
  * Internal dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { getNormalizedPost } from 'state/posts/selectors';
 
 export function PostStatus( { translate, post, showAll, showIcon = true } ) {

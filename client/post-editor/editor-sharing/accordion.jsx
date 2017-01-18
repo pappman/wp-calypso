@@ -11,7 +11,7 @@ import { includes, reduce } from 'lodash';
  */
 import Accordion from 'components/accordion';
 import FormTextInput from 'components/forms/form-text-input';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import PostMetadata from 'lib/post-metadata';
 import Sharing from './';
 import AccordionSection from 'components/accordion/section';

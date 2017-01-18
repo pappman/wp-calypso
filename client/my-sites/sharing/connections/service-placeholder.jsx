@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
  */
 import Button from 'components/button';
 import FoldableCard from 'components/foldable-card';
-import GridIcon from 'components/gridicon';
+import GridIcon from 'gridicons';
 
 class SharingServicePlaceholder extends Component {
 	static propTypes = {

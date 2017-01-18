@@ -16,7 +16,7 @@ import { getTagImages } from 'state/reader/tags/images/selectors';
 import resizeImageUrl from 'lib/resize-image-url';
 import cssSafeUrl from 'lib/css-safe-url';
 import { decodeEntities } from 'lib/formatting';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 const TAG_HEADER_WIDTH = 800;
 const TAG_HEADER_HEIGHT = 140;

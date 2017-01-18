@@ -8,7 +8,7 @@ import noop from 'lodash/noop';
 /**
  * Internal dependencies
  */
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Button from 'components/button';
 
 export default React.createClass( {

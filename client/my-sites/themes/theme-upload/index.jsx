@@ -11,7 +11,7 @@ import { includes, find } from 'lodash';
 import Main from 'components/main';
 import HeaderCake from 'components/header-cake';
 import Card from 'components/card';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import FilePicker from 'components/file-picker';
 import DropZone from 'components/drop-zone';
 import ProgressBar from 'components/progress-bar';

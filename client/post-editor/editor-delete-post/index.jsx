@@ -11,7 +11,7 @@ import actions from 'lib/posts/actions';
 import accept from 'lib/accept';
 import utils from 'lib/posts/utils';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Tooltip from 'components/tooltip';
 
 export default React.createClass( {

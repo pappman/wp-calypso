@@ -8,7 +8,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import Tooltip from 'components/tooltip';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 module.exports = React.createClass( {
 	displayName: 'ModuleChartBar',

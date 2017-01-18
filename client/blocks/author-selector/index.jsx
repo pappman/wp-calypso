@@ -13,7 +13,7 @@ import Popover from 'components/popover';
 import PopoverMenuItem from 'components/popover/menu-item';
 import SiteUsersFetcher from 'components/site-users-fetcher';
 import UserItem from 'components/user';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import InfiniteList from 'components/infinite-list';
 import UsersActions from 'lib/users/actions';
 import Search from 'components/search';

@@ -17,7 +17,7 @@ import { getEditedPostValue } from 'state/posts/selectors';
 import { getPostTypeTaxonomies } from 'state/post-types/taxonomies/selectors';
 import { isJetpackMinimumVersion } from 'state/sites/selectors';
 import Accordion from 'components/accordion';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import TermTokenField from 'post-editor/term-token-field';
 import TermSelector from 'post-editor/editor-term-selector';
 

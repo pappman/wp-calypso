@@ -10,7 +10,7 @@ import { shallow } from 'enzyme';
  * Internal dependencies
  */
 import useFakeDom from 'test/helpers/use-fake-dom';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 describe( 'AccordionStatus', function() {
 	let AccordionStatus, Tooltip;

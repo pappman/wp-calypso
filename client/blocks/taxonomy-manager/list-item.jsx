@@ -13,7 +13,7 @@ import { get, isUndefined } from 'lodash';
 import Count from 'components/count';
 import Dialog from 'components/dialog';
 import EllipsisMenu from 'components/ellipsis-menu';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import PopoverMenuItem from 'components/popover/menu-item';
 import PopoverMenuSeparator from 'components/popover/menu-separator';
 import Tooltip from 'components/tooltip';

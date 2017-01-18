@@ -26,7 +26,7 @@ import {
 import Button from 'components/button';
 import Card from 'components/card';
 import Count from 'components/count';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import { sectionify } from 'lib/route/path';
 import { getAllPostCount } from 'state/posts/counts/selectors';
 import { getEditorNewPostPath } from 'state/ui/editor/selectors';

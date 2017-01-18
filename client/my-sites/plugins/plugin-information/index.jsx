@@ -10,7 +10,7 @@ import classNames from 'classnames';
  */
 
 import ExternalLink from 'components/external-link';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Version from 'components/version';
 import PluginRatings from 'my-sites/plugins/plugin-ratings/';
 import versionCompare from 'lib/version-compare';

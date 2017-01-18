@@ -17,7 +17,7 @@ import FormRadio from 'components/forms/form-radio';
 import FormTextInput from 'components/forms/form-text-input';
 import FormSettingExplanation from 'components/forms/form-setting-explanation';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import Popover from 'components/popover';
 import touchDetect from 'lib/touch-detect';
 import Tooltip from 'components/tooltip';

@@ -10,7 +10,7 @@ import classNames from 'classnames';
 import toggle from '../mixin-toggle';
 import observe from 'lib/mixins/data-observe';
 import Card from 'components/card';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import StatsModulePlaceholder from '../stats-module/placeholder';
 import StatsModuleContent from '../stats-module/content-text';
 

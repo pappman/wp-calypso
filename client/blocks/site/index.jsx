@@ -9,7 +9,7 @@ import { noop } from 'lodash';
  * Internal dependencies
  */
 import SiteIcon from 'blocks/site-icon';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import SiteIndicator from 'my-sites/site-indicator';
 
 export default React.createClass( {

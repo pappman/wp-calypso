@@ -10,7 +10,7 @@ import reject from 'lodash/reject';
  */
 import MediaActions from 'lib/media/actions';
 import MediaLibrarySelectedStore from 'lib/media/library-selected-store';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 export default React.createClass( {
 	displayName: 'EditorMediaModalGalleryRemoveButton',

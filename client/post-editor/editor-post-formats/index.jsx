@@ -9,7 +9,7 @@ import { map } from 'lodash';
  * Internal dependencies
  */
 import FormRadio from 'components/forms/form-radio';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import QueryPostFormats from 'components/data/query-post-formats';
 import PostActions from 'lib/posts/actions';
 import { recordStat, recordEvent } from 'lib/posts/stats';

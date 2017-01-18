@@ -7,7 +7,7 @@ import React from 'react';
 import Button from 'components/button';
 import observe from 'lib/mixins/data-observe';
 import eventRecorder from 'me/event-recorder';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import PopoverMenu from 'components/popover/menu';
 import PopoverMenuItem from 'components/popover/menu-item';
 

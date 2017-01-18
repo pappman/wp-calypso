@@ -15,7 +15,7 @@ var HeaderCake = require( 'components/header-cake' ),
 	ActionPanelFigure = require( 'my-sites/site-settings/action-panel/figure' ),
 	ActionPanelFooter = require( 'my-sites/site-settings/action-panel/footer' ),
 	Button = require( 'components/button' ),
-	Gridicon = require( 'components/gridicon' ),
+	Gridicon = require( 'gridicons' ),
 	support = require( 'lib/url/support' );
 
 module.exports = React.createClass( {

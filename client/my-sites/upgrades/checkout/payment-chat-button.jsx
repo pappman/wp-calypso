@@ -8,7 +8,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import OlarkChatButton from 'components/olark-chat-button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 export default localize( ( { cart, translate, paymentType, transactionStep } ) => {
 	const { products } = cart;

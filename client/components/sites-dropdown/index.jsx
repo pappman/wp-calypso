@@ -12,7 +12,7 @@ import Site from 'blocks/site';
 import SitePlaceholder from 'blocks/site/placeholder';
 import SiteSelector from 'components/site-selector';
 import sitesList from 'lib/sites-list';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 const sites = sitesList();
 

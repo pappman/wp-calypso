@@ -8,7 +8,7 @@ import PureRenderMixin from 'react-pure-render/mixin';
  * Internal dependencies
  */
 import CompactCard from 'components/card/compact';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 module.exports = React.createClass( {
 	displayName: 'HelpResult',

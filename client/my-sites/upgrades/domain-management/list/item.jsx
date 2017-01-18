@@ -12,7 +12,7 @@ import DomainPrimaryFlag from 'my-sites/upgrades/domain-management/components/do
 import Notice from 'components/notice';
 import { type as domainTypes } from 'lib/domains/constants';
 import Spinner from 'components/spinner';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 const ListItem = React.createClass( {
 

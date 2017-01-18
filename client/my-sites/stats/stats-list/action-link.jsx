@@ -8,7 +8,7 @@ import { localize } from 'i18n-calypso';
  * Internal dependencies
  */
 import analytics from 'lib/analytics';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 class StatsActionLink extends PureComponent {
 	static propTypes = {

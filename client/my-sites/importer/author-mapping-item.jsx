@@ -10,7 +10,7 @@ import PureRenderMixin from 'react-pure-render/mixin';
 import AuthorSelector from 'blocks/author-selector';
 import UserItem from 'components/user';
 import user from 'lib/user';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 export default React.createClass( {
 	displayName: 'ImporterAuthorMapping',

@@ -10,7 +10,7 @@ import page from 'page';
  * Internal dependencies
  */
 import QueryPlans from 'components/data/query-plans';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import FeatureExample from 'components/feature-example';
 import FeatureComparison from 'my-sites/feature-comparison';
 import PlanCompareCard from 'my-sites/plan-compare-card';

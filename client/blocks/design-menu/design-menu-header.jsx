@@ -10,7 +10,7 @@ import { localize } from 'i18n-calypso';
 import SiteCard from 'blocks/site';
 import Card from 'components/card';
 import Button from 'components/button';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 const DesignMenuHeader = ( { isUnsaved, onBack, onPreview, onSave, site, translate } ) => {
 	return (

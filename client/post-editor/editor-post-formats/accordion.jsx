@@ -10,7 +10,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import Accordion from 'components/accordion';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 import QueryPostFormats from 'components/data/query-post-formats';
 import siteUtils from 'lib/site/utils';
 import PostFormats from './';

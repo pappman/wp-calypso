@@ -8,7 +8,7 @@ import classNames from 'classnames';
  * Internal dependencies
  */
 import Count from 'components/count';
-import Gridicon from 'components/gridicon';
+import Gridicon from 'gridicons';
 
 export default React.createClass( {
 
