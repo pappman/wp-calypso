@@ -1,7 +1,7 @@
 version: '2'
 services:
   calypso:
-    image: withinboredom/wp-calypso:add_dockerized-development-experiment
+    image: withinboredom/wp-calypso:latest
     extra_hosts:
       - 'calypso.localhost:0.0.0.0'
     user: root
